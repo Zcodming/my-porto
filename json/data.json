@@ -1,0 +1,46 @@
+{
+	"skill": [
+		{
+			"id": 1,
+			"name": "REACT (TS)",
+			"progress": "55%",
+			"level": "ADVANCE"
+		},
+		{
+            "id": 2,
+			"name": "REACT NATIVE",
+			"progress": "30%",
+			"level": "INTERMIDATE"
+        },
+		{
+            "id": 3,
+			"name": "NEXT JS",
+			"progress": "36%",
+			"level": "INTERMIDATE"
+        },
+		{
+            "id": 4,
+			"name": "TAILWIND CSS",
+			"progress": "42%",
+			"level": "ADVANCE"
+        },
+		{
+            "id": 5,
+			"name": "REST API",
+			"progress": "38%",
+			"level": "INTERMIDATE"
+        },
+		{
+            "id": 6,
+			"name": "APOLLO",
+			"progress": "18%",
+			"level": "BEGINNER"
+        },
+		{
+            "id": 7,
+			"name": "CAPACITOR",
+			"progress": "10%",
+			"level": "BEGINNER"
+        }
+	]
+}

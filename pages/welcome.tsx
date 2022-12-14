@@ -1,6 +1,6 @@
 export default function Welcome() {
 	return (
-		<div className="font-mono flex flex-col mt-12 pb-10 pl-12 place-content-center justify-center h-screen min-w-full">
+		<div className="font-mono flex flex-col pt-24 mb-20 pl-12 place-content-center justify-center h-screen min-w-full">
 			<div className="text-left mb-4 mt-6 text-8xl">
 				<p className="">PROGRAMMER</p>
 			</div>

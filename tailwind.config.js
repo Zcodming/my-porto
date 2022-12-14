@@ -13,6 +13,7 @@ module.exports = {
       'tuna': '#333142',
       'orange': '#f97127',
       'green': '#4aea70',
+      'light-green': '#D8F5DE',
       'ship-gray': '#3f3e49',
       'smokey': '#59576b',
     },
@@ -20,6 +21,7 @@ module.exports = {
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif']
       },
+      
     },
   },
   plugins: [],

@@ -1,12 +1,12 @@
 export default function About() {
 	return (
-		<div className="flex flex-col place-content-center justify-center w-full px-10 mb-12 pb-10 mt-6">
-			<div className="flex flex-coltext-2xl mb-4">
+		<div className="flex flex-col place-content-center justify-center w-full px-10 mb-6 pt-24 mt-6">
+			<div className="flex flex-col text-2xl mb-4">
 				<h1 className="text-light-blue text-8xl">About Me</h1>
 			</div>
 			<div className="flex flex-wrap">
 				<div
-					className="w-1/2 mr-12 place-content-center justify-center bg-smokey rounded-xl"
+					className="w-1/2 mr-12 place-content-center justify-center bg-ship-gray rounded-xl shadow-md"
 					style={{ width: "455px" }}>
 					<div className="flex my-6 justify-center">
 						<img
@@ -21,39 +21,63 @@ export default function About() {
 							Contact
 						</span>
 					</div>
-					<div className="flex justify-start text-left ml-28">
+					<div className="flex justify-start text-left ml-24">
 						<div>
-							<span className="mr-6">
+							<span className="mr-4">
 								<i className="fa-brands fa-whatsapp"></i>
 							</span>
-							<span className="ml-5">+62-895-3467-93826</span>
+							<a
+								type="button"
+								href="https://wa.me/+62895346793826"
+								target="_blank"
+								className="ml-5 hover:text-light-blue">
+								+62 895-3467-93826
+							</a>
 						</div>
 					</div>
-					<div className="flex justify-start text-left ml-28">
+					<div className="flex justify-start text-left ml-24">
 						<div>
-							<span className="mr-6">
+							<span className="mr-4">
 								<i className="fa-regular fa-envelope"></i>
 							</span>
-							<span>zahwatri.riyanto@gmail.com</span>
+							<a
+								type="button"
+								href="mailto:zahwatri.riyanto@gmail.com"
+								target="_blank"
+								className="hover:text-light-blue">
+								zahwatri.riyanto@gmail.com
+							</a>
 						</div>
 					</div>
-					<div className="flex justify-start text-left ml-28 mb-10">
+					<div className="flex justify-start text-left ml-24 mb-10">
 						<div>
-							<span className="mr-6">
+							<span className="mr-4">
 								<i className="fa-solid fa-location-dot"></i>
 							</span>
-							<span>Pontianak, Kalimantan Barat</span>
+							<a
+								type="button"
+								href="https://www.google.com/maps/place/Pontianak"
+								target="_blank"
+								className="hover:text-light-blue">
+								Pontianak, Kalimantan Barat
+							</a>
 						</div>
 					</div>
 				</div>
 				<div className="w-1/2" style={{ width: "725px" }}>
-					<p className="text-2xl text-center">
-						Hello, my name is Zahwa Tri Riyanto. I am a bachelor's
-						degree student in Informatics Engineering major, and
-						programming is one of my passionsin life. I'm fast
-						learner and I love learning or trying new things about
-						programming. Becoming a professional programmer is one
-						of my dreams.
+					<p className="mx-16 text-2xl text-center">
+						Hello, my name is{" "}
+						<span className="text-light-blue">Zahwa</span> Tri
+						Riyanto. I am a bachelor's degree student in Informatics
+						Engineering major, and programming is one of my
+						passionsin life. I'm fast learner and I love learning or
+						trying new things about programming. Becoming a
+						professional programmer is one of my dreams.
+					</p>
+					<p className="mx-16 text-2xl text-center mt-10">
+						“For the things we have to learn before we can do them,
+						we learn by doing them.” ―{" "}
+						<span className="text-orange">Aristotle</span>
 					</p>
 				</div>
 			</div>

@@ -1,56 +1,83 @@
+import { useRef, useState } from "react";
+import styles from "../styles/Home.module.css";
+import DevSkill from "../components/devSkill";
+import OtrSkill from "../components/otrSkill";
+
 export default function Skill() {
+	const [change, setChange] = useState(false);
+	const refChange = useRef(null);
+
 	return (
-		<div className="flex flex-col place-content-center justify-center w-full px-10 mb-12">
-			<div className="flex flex-coltext-2xl mb-4">
-				<h1 className="text-light-blue text-8xl">About Me</h1>
-			</div>
+		<div
+			className="flex flex-col place-content-center justify-center w-full px-10 mb-16 pt-24 mt-6"
+			ref={refChange}>
 			<div className="flex flex-wrap">
-				<div
-					className="w-1/2 mr-12 place-content-center justify-center bg-smokey rounded-xl"
-					style={{ width: "500px" }}>
-					<div className="flex my-6 justify-center">
-						<img
-							src="/Foto.png"
-							alt="My Projects"
-							className="p-1 rounded-full ring-2 ring-blue"
-							style={{ height: "200px" }}
-						/>
+				<div className="w-1/2 mr-12" style={{ width: "455px" }}>
+					<div className="flex flex-coltext-2xl mb-4">
+						<h1 className="text-light-blue text-8xl">My Skills</h1>
 					</div>
-					<div className="flex mb-8 justify-center">
-						<span className="text-center text-2xl text-light-blue">
-							Contact
-						</span>
-					</div>
-					<div className="flex justify-start text-left ml-28">
-						<div>
-							<span className="mr-6">
-								<i className="fa-brands fa-whatsapp"></i>
+					<div className="flex flex-col place-content-center justify-center rounded-xl">
+						<div className="flex mb-4 mt-8 justify-start">
+							<span className="text-left text-2xl text-light-blue">
+								Intrest
 							</span>
-							<span className="ml-5">+62-895-3467-93826</span>
 						</div>
-					</div>
-					<div className="flex justify-start text-left ml-28">
-						<div>
-							<span className="mr-6">
-								<i className="fa-regular fa-envelope"></i>
+						<div className="flex mb-48 justify-start">
+							<button
+								disabled
+								className="hover:text-light-blue hover:border-light-blue text-left text-md py-1 px-2 mr-3 border border-3 border-white rounded-md">
+								Programming
+							</button>
+							<button
+								disabled
+								className="hover:text-light-blue hover:border-light-blue text-left text-md py-1 px-2 mr-3 border border-3 border-white rounded-md">
+								Gaming
+							</button>
+							<button
+								disabled
+								className="hover:text-light-blue hover:border-light-blue text-left text-md py-1 px-2 mr-3 border border-3 border-white rounded-md">
+								Reading
+							</button>
+							<button
+								disabled
+								className="hover:text-light-blue hover:border-light-blue text-left text-md py-1 px-2 mr-3 border border-3 border-white rounded-md">
+								Sketching
+							</button>
+						</div>
+						<div className="mt-4 flex justify-end">
+							<span className="text-lg">
+								You Can Also Check My
 							</span>
-							<span>zahwatri.riyanto@gmail.com</span>
 						</div>
-					</div>
-					<div className="flex justify-start text-left ml-28 mb-10">
-						<div>
-							<span className="mr-6">
-								<i className="fa-solid fa-location-dot"></i>
+						<div className="mb-8 flex justify-end text-4xl">
+							{change ? (
+								<button
+									className="hover:text-light-blue"
+									onClick={() =>
+										setChange((change) => false)
+									}>
+									<span className="text-right mr-2">
+										Programming Skills
+									</span>
+								</button>
+							) : (
+								<button
+									className="hover:text-light-blue"
+									onClick={() => setChange((change) => true)}>
+									<span className="text-right mr-2">
+										Related Skills
+									</span>
+								</button>
+							)}
+							<span className="text-light-blue">
+								<i className="fa-solid fa-arrow-left"></i>
 							</span>
-							<span>Pontianak, Kalimantan Barat</span>
 						</div>
+						<div></div>
 					</div>
 				</div>
-				<div className="flex flex-col w-1/2">
-					<p className="text-2xl text-center">
-						Hello, my name is Zahwa Tri Riyanto
-					</p>
-				</div>
+
+				{change ? <OtrSkill /> : <DevSkill />}
 			</div>
 		</div>
 	);
