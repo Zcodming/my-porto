@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import styles from "../styles/Home.module.css";
-import DevSkill from "../components/devSkill";
-import OtrSkill from "../components/otrSkill";
+import DevSkill from "./devSkill";
+import OtrSkill from "./otrSkill";
 
 export default function Skill() {
 	const [change, setChange] = useState(false);

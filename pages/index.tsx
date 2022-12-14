@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
-import Navbar from "../components/Navbar";
+import Navbar from "./Navbar";
 import Welcome from "./welcome";
 import About from "./about";
 import Skill from "./skill";
