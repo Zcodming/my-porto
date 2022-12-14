@@ -75,9 +75,9 @@ export default function About() {
 						<span className="text-light-blue">Zahwa</span> Tri
 						Riyanto. I am a bachelor&apos;s degree student in
 						Informatics Engineering major, and programming is one of
-						my passionsin life. I&apos;m fast learner and I love
-						learning or trying new things about programming.
-						Becoming a professional programmer is one of my dreams.
+						my passion in life. I&apos;m a fast learner and love to
+						learn and try new things about programming. Becoming a
+						professional programmer is one of my dreams.
 					</p>
 					<p className="mx-16 text-2xl text-center mt-10">
 						“For the things we have&nbsp to learn before we can do
