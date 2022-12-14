@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Welcome() {
 	return (
 		<div className="font-mono flex flex-col pt-24 mb-20 pl-12 place-content-center justify-center h-screen min-w-full">
@@ -7,11 +8,12 @@ export default function Welcome() {
 			<div
 				className="flex flex-col bg-blue rounded-md place-content-center justify-center"
 				style={{ width: "530px" }}>
-				<img
+				<Image
 					src="/Foto.png"
 					alt="My Projects"
 					className=" self-center"
-					style={{ width: "auto", height: "200px" }}
+					width={200}
+					height={100}
 				/>
 			</div>
 			<div className="text-right mb-4 pr-12 text-8xl">

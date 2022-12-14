@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function About() {
 	return (
 		<div className="flex flex-col place-content-center justify-center w-full px-10 mb-6 pt-24 mt-6">
@@ -9,11 +10,12 @@ export default function About() {
 					className="w-1/2 mr-12 place-content-center justify-center bg-ship-gray rounded-xl shadow-md"
 					style={{ width: "455px" }}>
 					<div className="flex my-6 justify-center">
-						<img
+						<Image
 							src="/Foto.png"
 							alt="My Projects"
+							width={150}
+							height={150}
 							className="p-1 rounded-full ring-2 ring-blue"
-							style={{ height: "150px" }}
 						/>
 					</div>
 					<div className="flex mb-8 justify-center">
@@ -30,6 +32,7 @@ export default function About() {
 								type="button"
 								href="https://wa.me/+62895346793826"
 								target="_blank"
+								rel="noreferrer"
 								className="ml-5 hover:text-light-blue">
 								+62 895-3467-93826
 							</a>
@@ -44,6 +47,7 @@ export default function About() {
 								type="button"
 								href="mailto:zahwatri.riyanto@gmail.com"
 								target="_blank"
+								rel="noreferrer"
 								className="hover:text-light-blue">
 								zahwatri.riyanto@gmail.com
 							</a>
@@ -58,6 +62,7 @@ export default function About() {
 								type="button"
 								href="https://www.google.com/maps/place/Pontianak"
 								target="_blank"
+								rel="noreferrer"
 								className="hover:text-light-blue">
 								Pontianak, Kalimantan Barat
 							</a>
@@ -66,17 +71,17 @@ export default function About() {
 				</div>
 				<div className="w-1/2" style={{ width: "725px" }}>
 					<p className="mx-16 text-2xl text-center">
-						Hello, my name is{" "}
+						Hello, my name is&nbsp;
 						<span className="text-light-blue">Zahwa</span> Tri
-						Riyanto. I am a bachelor's degree student in Informatics
-						Engineering major, and programming is one of my
-						passionsin life. I'm fast learner and I love learning or
-						trying new things about programming. Becoming a
-						professional programmer is one of my dreams.
+						Riyanto. I am a bachelor&apos;s degree student in
+						Informatics Engineering major, and programming is one of
+						my passionsin life. I&apos;m fast learner and I love
+						learning or trying new things about programming.
+						Becoming a professional programmer is one of my dreams.
 					</p>
 					<p className="mx-16 text-2xl text-center mt-10">
-						“For the things we have to learn before we can do them,
-						we learn by doing them.” ―{" "}
+						“For the things we have&nbsp to learn before we can do
+						them, we learn by doing them.” ―&nbsp;
 						<span className="text-orange">Aristotle</span>
 					</p>
 				</div>

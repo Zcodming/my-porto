@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Project() {
 	return (
 		<div className="flex flex-col place-content-center justify-center w-full px-10 mb-24 pt-24 mt-6">
@@ -13,9 +14,11 @@ export default function Project() {
 						width: "500px",
 						height: "300px",
 					}}>
-					<img
+					<Image
 						alt="..."
 						src="/project1.png"
+						width={500}
+						height={300}
 						className="w-full align-middle rounded-t-lg"
 					/>
 					<blockquote className="p-4 justify-center">
