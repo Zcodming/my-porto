@@ -1,4 +1,5 @@
 import "@fortawesome/fontawesome-free";
+import "tailwindcss";
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 // config.autoAddCss = false;
