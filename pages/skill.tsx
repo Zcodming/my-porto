@@ -1,5 +1,4 @@
 import { useRef, useState } from "react";
-import styles from "../styles/Home.module.css";
 import DevSkill from "./devSkill";
 import OtrSkill from "./otrSkill";
 

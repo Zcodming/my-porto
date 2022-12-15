@@ -1,3 +1,5 @@
+const autoprefixer = require('autoprefixer')
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -7,7 +9,7 @@ const nextConfig = {
     path: "/public",
   },
   basePath: "/nextjs-pages",
-  assetPrefix: "/nextjs-pages"
+  assetPrefix: "/nextjs-pages",
 }
 
 module.exports = nextConfig

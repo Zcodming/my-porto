@@ -1,12 +1,12 @@
 import { useRef, useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
-import Navbar from "./Navbar";
 import Welcome from "./welcome";
 import About from "./about";
 import Skill from "./skill";
 import Project from "./project";
 import styles from "../styles/Home.module.css";
+import "tailwindcss/tailwind.css";
 
 export default function Home() {
 	const fieldRef = useRef<HTMLInputElement>(null);
