@@ -80,8 +80,8 @@ export default function About() {
 						professional programmer is one of my dreams.
 					</p>
 					<p className="mx-16 text-2xl text-center mt-10">
-						“For the things we have&nbsp to learn before we can do
-						them, we learn by doing them.” ―&nbsp;
+						“For the things we have to learn before we can do them,
+						we learn by doing them.” ―&nbsp;
 						<span className="text-orange">Aristotle</span>
 					</p>
 				</div>
