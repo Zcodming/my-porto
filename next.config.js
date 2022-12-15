@@ -4,10 +4,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  // images: {
-  //   loader: "akamai",
-  //   path: "/public",
-  // },
+  images: {
+    loader: "akamai",
+    path: "",
+  },
   // basePath: "/nextjs-pages",
   // assetPrefix: "/nextjs-pages",
 }
