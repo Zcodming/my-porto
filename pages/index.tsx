@@ -7,7 +7,7 @@ import Skill from "./skill";
 import Project from "./project";
 import styles from "../styles/Home.module.css";
 import "tailwindcss/tailwind.css";
-import "@fontawesome-free";
+import "font-awesome";
 
 export default function Home() {
 	const fieldRef = useRef<HTMLInputElement>(null);
