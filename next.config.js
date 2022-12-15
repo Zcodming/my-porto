@@ -7,6 +7,7 @@ const nextConfig = {
   images: {
     loader: "default",
     path: '/_next/image',
+    unoptimized: true,
   },
   // basePath: "/nextjs-pages",
   // assetPrefix: "/nextjs-pages",
