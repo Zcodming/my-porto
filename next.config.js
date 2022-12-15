@@ -5,8 +5,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    loader: "akamai",
-    path: "/public",
+    loader: "default",
+    path: '/_next/image',
   },
   // basePath: "/nextjs-pages",
   // assetPrefix: "/nextjs-pages",

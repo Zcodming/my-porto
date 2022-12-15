@@ -1,4 +1,6 @@
 import Image from "next/image";
+import ProfilePic from "../public/Foto.png";
+
 export default function About() {
 	return (
 		<div className="flex flex-col place-content-center justify-center w-full px-10 mb-6 pt-24 mt-6">
@@ -11,7 +13,7 @@ export default function About() {
 					style={{ width: "455px" }}>
 					<div className="flex my-6 justify-center">
 						<Image
-							src="/Foto.png"
+							src={ProfilePic}
 							alt="My Projects"
 							width={150}
 							height={150}

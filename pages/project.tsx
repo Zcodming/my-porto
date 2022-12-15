@@ -1,4 +1,6 @@
 import Image from "next/image";
+import ProjectPic from "../public/project1.png";
+
 export default function Project() {
 	return (
 		<div className="flex flex-col place-content-center justify-center w-full px-10 mb-24 pt-24 mt-6">
@@ -15,8 +17,8 @@ export default function Project() {
 						height: "300px",
 					}}>
 					<Image
-						alt="..."
-						src="/project1.png"
+						alt="Project 1"
+						src={ProjectPic}
 						width={500}
 						height={300}
 						className="w-full align-middle rounded-t-lg"
