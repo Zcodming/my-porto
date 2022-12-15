@@ -36,7 +36,7 @@ export default function About() {
 								target="_blank"
 								rel="noreferrer"
 								className="ml-5 hover:text-light-blue">
-								+62 895-3467-93826
+								My Whatsapp
 							</a>
 						</div>
 					</div>
@@ -51,7 +51,22 @@ export default function About() {
 								target="_blank"
 								rel="noreferrer"
 								className="hover:text-light-blue">
-								zahwatri.riyanto@gmail.com
+								Mail Me Zahwa
+							</a>
+						</div>
+					</div>
+					<div className="flex justify-start text-left ml-24">
+						<div>
+							<span className="mr-4">
+								<i className="fa-brands fa-github"></i>
+							</span>
+							<a
+								type="button"
+								href="https://github.com/Zcodming"
+								target="_blank"
+								rel="noreferrer"
+								className="hover:text-light-blue">
+								My Github Zcodming
 							</a>
 						</div>
 					</div>
