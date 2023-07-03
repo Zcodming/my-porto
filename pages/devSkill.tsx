@@ -7,16 +7,10 @@ export default function DevSkill() {
 				<tbody>
 					<tr>
 						{/* React 	*/}
-						<td className="px-10 text-left text-orange">
-							REACT (TS)
-						</td>
-						<td
-							className="relative text-center text-green"
-							style={{ width: "300px" }}>
+						<td className="px-8 text-left text-orange">REACT (TS)</td>
+						<td className="relative text-center text-green" style={{ width: "300px" }}>
 							<div className="w-full bg-light-green rounded-full h-2.5 dark:bg-gray-700">
-								<div
-									className="bg-green h-2.5 rounded-full"
-									style={{ width: "56%" }}></div>
+								<div className="bg-green h-2.5 rounded-full" style={{ width: "56%" }}></div>
 							</div>
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex h-1 p-1 my-7 bg-green border-white"></div>
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex h-1 p-1 my-7 ml-16 bg-green border-white"></div>
@@ -25,22 +19,16 @@ export default function DevSkill() {
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex h-1 p-1 my-7 ml-64 border-white"></div>
 							{/* <div className="absolute top-0 bottom-0 rounded-full border-4 flex p-2 my-6 ml-40 bg-white border-white shadow-lg"></div> */}
 						</td>
-						<td className="px-10 text-right">
+						<td className="px-8 text-right">
 							<i>ADVANCE</i>
 						</td>
 					</tr>
 					<tr>
 						{/* React Native 	*/}
-						<td className="px-10 text-left text-orange">
-							REACT NATIVE
-						</td>
-						<td
-							className="relative text-center text-green"
-							style={{ width: "300px" }}>
+						<td className="px-8 text-left text-orange">REACT NATIVE</td>
+						<td className="relative text-center text-green" style={{ width: "300px" }}>
 							<div className="w-full bg-light-green rounded-full h-2.5 dark:bg-gray-700">
-								<div
-									className="bg-green h-2.5 rounded-full"
-									style={{ width: "35%" }}></div>
+								<div className="bg-green h-2.5 rounded-full" style={{ width: "35%" }}></div>
 							</div>
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 bg-green border-white"></div>
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 ml-16 bg-green border-white"></div>
@@ -49,20 +37,16 @@ export default function DevSkill() {
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 ml-64 border-white"></div>
 							{/* <div className="absolute top-0 bottom-0 rounded-full border-4 flex p-2 my-6 ml-40 bg-white border-white shadow-lg"></div> */}
 						</td>
-						<td className="px-10 text-right">
-							<i>INTERMIDATE</i>
+						<td className="px-8 text-right">
+							<i>INTERMEDIATE</i>
 						</td>
 					</tr>
 					<tr>
 						{/* Next JS 	*/}
-						<td className="px-10 text-left text-orange">NEXT JS</td>
-						<td
-							className="relative text-center text-green"
-							style={{ width: "300px" }}>
+						<td className="px-8 text-left text-orange">NEXT JS</td>
+						<td className="relative text-center text-green" style={{ width: "300px" }}>
 							<div className="w-full bg-light-green rounded-full h-2.5 dark:bg-gray-700">
-								<div
-									className="bg-green h-2.5 rounded-full"
-									style={{ width: "39%" }}></div>
+								<div className="bg-green h-2.5 rounded-full" style={{ width: "52%" }}></div>
 							</div>
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 bg-green border-white"></div>
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 ml-16 bg-green border-white"></div>
@@ -71,22 +55,16 @@ export default function DevSkill() {
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 ml-64 border-white"></div>
 							{/* <div className="absolute top-0 bottom-0 rounded-full border-4 flex p-2 my-6 ml-40 bg-white border-white shadow-lg"></div> */}
 						</td>
-						<td className="px-10 text-right">
-							<i>INTERMIDATE</i>
+						<td className="px-8 text-right">
+							<i>ADVANCE</i>
 						</td>
 					</tr>
 					<tr>
 						{/* Tailwind CSS 	*/}
-						<td className="px-10 text-left text-orange">
-							TAILWIND CSS
-						</td>
-						<td
-							className="relative text-center text-green"
-							style={{ width: "300px" }}>
+						<td className="px-8 text-left text-orange">TAILWIND CSS</td>
+						<td className="relative text-center text-green" style={{ width: "300px" }}>
 							<div className="w-full bg-light-green rounded-full h-2.5 dark:bg-gray-700">
-								<div
-									className="bg-green h-2.5 rounded-full"
-									style={{ width: "51%" }}></div>
+								<div className="bg-green h-2.5 rounded-full" style={{ width: "62%" }}></div>
 							</div>
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 bg-green border-white"></div>
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 ml-16 bg-green border-white"></div>
@@ -95,22 +73,16 @@ export default function DevSkill() {
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 ml-64 border-white"></div>
 							{/* <div className="absolute top-0 bottom-0 rounded-full border-4 flex p-2 my-6 ml-40 bg-white border-white shadow-lg"></div> */}
 						</td>
-						<td className="px-10 text-right">
+						<td className="px-8 text-right">
 							<i>ADVANCE</i>
 						</td>
 					</tr>
 					<tr>
 						{/* Rest API 	*/}
-						<td className="px-10 text-left text-orange">
-							REST API
-						</td>
-						<td
-							className="relative text-center text-green"
-							style={{ width: "300px" }}>
+						<td className="px-8 text-left text-orange">REST API</td>
+						<td className="relative text-center text-green" style={{ width: "300px" }}>
 							<div className="w-full bg-light-green rounded-full h-2.5 dark:bg-gray-700">
-								<div
-									className="bg-green h-2.5 rounded-full"
-									style={{ width: "42%" }}></div>
+								<div className="bg-green h-2.5 rounded-full" style={{ width: "54%" }}></div>
 							</div>
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 bg-green border-white"></div>
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 ml-16 bg-green border-white"></div>
@@ -119,20 +91,16 @@ export default function DevSkill() {
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 ml-64 border-white"></div>
 							{/* <div className="absolute top-0 bottom-0 rounded-full border-4 flex p-2 my-6 ml-40 bg-white border-white shadow-lg"></div> */}
 						</td>
-						<td className="px-10 text-right">
-							<i>INTERMIDATE</i>
+						<td className="px-8 text-right">
+							<i>ADVANCE</i>
 						</td>
 					</tr>
 					<tr>
-						{/* Apollo 	*/}
-						<td className="px-10 text-left text-orange">APOLLO</td>
-						<td
-							className="relative text-center text-green"
-							style={{ width: "300px" }}>
+						{/* Front-End 	*/}
+						<td className="px-8 text-left text-orange">FRONT-END</td>
+						<td className="relative text-center text-green" style={{ width: "300px" }}>
 							<div className="w-full bg-light-green rounded-full h-2.5 dark:bg-gray-700">
-								<div
-									className="bg-green h-2.5 rounded-full"
-									style={{ width: "20%" }}></div>
+								<div className="bg-green h-2.5 rounded-full" style={{ width: "57%" }}></div>
 							</div>
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 bg-green border-white"></div>
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 ml-16 border-white"></div>
@@ -141,22 +109,16 @@ export default function DevSkill() {
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 ml-64 border-white"></div>
 							{/* <div className="absolute top-0 bottom-0 rounded-full border-4 flex p-2 my-6 ml-40 bg-white border-white shadow-lg"></div> */}
 						</td>
-						<td className="px-10 text-right">
-							<i>BEGINNER</i>
+						<td className="px-8 text-right">
+							<i>ADVANCE</i>
 						</td>
 					</tr>
 					<tr>
-						{/* Capacitor 	*/}
-						<td className="px-10 text-left text-orange">
-							CAPACITOR
-						</td>
-						<td
-							className="relative text-center text-green"
-							style={{ width: "300px" }}>
+						{/* Back-End 	*/}
+						<td className="px-8 text-left text-orange">BACK-END</td>
+						<td className="relative text-center text-green" style={{ width: "300px" }}>
 							<div className="w-full bg-light-green rounded-full h-2.5 dark:bg-gray-700">
-								<div
-									className="bg-green h-2.5 rounded-full"
-									style={{ width: "15%" }}></div>
+								<div className="bg-green h-2.5 rounded-full" style={{ width: "42%" }}></div>
 							</div>
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 bg-green border-white"></div>
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 ml-16 border-white"></div>
@@ -165,8 +127,8 @@ export default function DevSkill() {
 							<div className="absolute top-0 bottom-0 rounded-full border-4 flex p-1 my-7 ml-64 border-white"></div>
 							{/* <div className="absolute top-0 bottom-0 rounded-full border-4 flex p-2 my-6 ml-40 bg-white border-white shadow-lg"></div> */}
 						</td>
-						<td className="px-10 text-right">
-							<i>BEGINNER</i>
+						<td className="px-8 text-right">
+							<i>INTERMEDIATE</i>
 						</td>
 					</tr>
 				</tbody>
